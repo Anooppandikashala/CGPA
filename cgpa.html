@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-<title>cgpa calculator</title>
+<title>sgpa calculator</title>
 <meta name="description" content="Our first page">
 <meta name="keywords" content="html tutorial template">
 <!-- Latest compiled and minified CSS -->
@@ -33,9 +33,9 @@
         var res = ((sub1 * crd1)+(sub2 * crd2)+(sub3 * crd3)+(sub4 * crd4)+(sub5 * crd5)+(sub6 * crd6)+(sub7 * crd7)+(sub8 * crd8));
         
 	var crd_sum = (parseInt(crd1) + parseInt(crd2) + parseInt(crd3) + parseInt(crd4) + parseInt(crd5) + parseInt(crd6) + parseInt(crd7) + parseInt(crd8));
-	document.getElementById("result").innerHTML="CGPA :"+crd_sum;
-	var cgpa = (res/crd_sum);
-        document.getElementById("result").innerHTML="CGPA :"+cgpa;
+	
+	var sgpa = (res/crd_sum);
+        document.getElementById("result").innerHTML="SGPA :"+sgpa;
         
         
     }
@@ -46,7 +46,7 @@
 <body>
 
 <div class="container" >
-<h2 align="center">C G P A Calculator Version 1</h2>
+<h2 align="center">S G P A Calculator Version 1</h2>
 
 <hr>
 
@@ -278,7 +278,7 @@
     <tr >
     	<td></td>
     	<td></td>
-        	<td><button type="submit" class="btn btn-success"  onclick="doCalculation()">Calculate CGPA</button></td>     
+        	<td><button type="submit" class="btn btn-success"  onclick="doCalculation()">Calculate SGPA</button></td>     
         <td></td>
         <td></td>   
     </tr>
