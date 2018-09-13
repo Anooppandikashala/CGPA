@@ -2,7 +2,7 @@
 
 ### About
 
-Simple SGPA calculator for semester 3 to 8 calicut university
+Simple SGPA calculator for semester 1 to 8 calicut university
 
 ----
 
