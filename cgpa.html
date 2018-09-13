@@ -8,7 +8,6 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 <script type="text/javascript">
-
     function doCalculation()
     {
         var sub1 = document.getElementsByName("sub1")[0].value;
@@ -19,7 +18,15 @@
         var sub6 = document.getElementsByName("sub6")[0].value;
         var sub7 = document.getElementsByName("sub7")[0].value;
         var sub8 = document.getElementsByName("sub8")[0].value;
-
+        
+        var sub9 = document.getElementsByName("sub9")[0].value;
+        var sub10 = document.getElementsByName("sub10")[0].value;
+        var sub11 = document.getElementsByName("sub11")[0].value;
+        var sub12 = document.getElementsByName("sub12")[0].value;
+        var sub13 = document.getElementsByName("sub13")[0].value;
+        
+        
+        
         var crd1 = document.getElementsByName("crd1")[0].value;
         var crd2 = document.getElementsByName("crd2")[0].value;
         var crd3 = document.getElementsByName("crd3")[0].value;
@@ -28,18 +35,23 @@
         var crd6 = document.getElementsByName("crd6")[0].value;
         var crd7 = document.getElementsByName("crd7")[0].value;
         var crd8 = document.getElementsByName("crd8")[0].value;
-
-
-        var res = ((sub1 * crd1)+(sub2 * crd2)+(sub3 * crd3)+(sub4 * crd4)+(sub5 * crd5)+(sub6 * crd6)+(sub7 * crd7)+(sub8 * crd8));
         
-	var crd_sum = (parseInt(crd1) + parseInt(crd2) + parseInt(crd3) + parseInt(crd4) + parseInt(crd5) + parseInt(crd6) + parseInt(crd7) + parseInt(crd8));
+        var crd9 = document.getElementsByName("crd9")[0].value;
+        var crd10 = document.getElementsByName("crd10")[0].value;
+        var crd11 = document.getElementsByName("crd11")[0].value;
+        var crd12 = document.getElementsByName("crd12")[0].value;
+        var crd13 = document.getElementsByName("crd13")[0].value;
+        
+        
+        var res = ((sub1 * crd1)+(sub2 * crd2)+(sub3 * crd3)+(sub4 * crd4)+(sub5 * crd5)+(sub6 * crd6)+(sub7 * crd7)+(sub8 * crd8)+(sub9 * crd9)+(sub10 * crd10)+(sub11 * crd11)+(sub12 * crd12)+(sub13 * crd13));
+        
+	var crd_sum = (parseInt(crd1) + parseInt(crd2) + parseInt(crd3) + parseInt(crd4) + parseInt(crd5) + parseInt(crd6) + parseInt(crd7) + parseInt(crd8)+parseInt(crd9) + parseInt(crd10) + parseInt(crd11) + parseInt(crd12) + parseInt(crd13));
 	
 	var sgpa = (res/crd_sum);
         document.getElementById("result").innerHTML="SGPA :"+sgpa;
         
         
     }
-
 </script>
 
 </head>
@@ -271,6 +283,151 @@
                 <option value="1">1</option>
                 <option value="6">6</option>
                 <option value="0">0</option>
+            </select>
+        </td>
+        
+    </tr>
+    <tr>
+        <td>Subject 9 :</td>
+        <td>Grade :</td>
+        <td>
+            <select class="form-control" name="sub9" required>
+                <option value="10">S</option>
+                <option value="9">A</option>
+                <option value="8">B</option>
+                <option value="7">C</option>
+                <option value="6">D</option>
+                <option value="5">E</option>
+                <option value="0">U</option>
+            </select>        
+        </td>
+        <td>Credit :</td>
+        <td>
+            <select class="form-control" name="crd9" required>
+            	<option value="0">0</option>
+                <option value="2">2</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                
+                <option value="1">1</option>
+                <option value="6">6</option>
+                
+            </select>
+        </td>
+        
+    </tr>
+    <tr>
+        <td>Subject 10 :</td>
+        <td>Grade :</td>
+        <td>
+            <select class="form-control" name="sub10" required>
+                <option value="10">S</option>
+                <option value="9">A</option>
+                <option value="8">B</option>
+                <option value="7">C</option>
+                <option value="6">D</option>
+                <option value="5">E</option>
+                <option value="0">U</option>
+            </select>        
+        </td>
+        <td>Credit :</td>
+        <td>
+            <select class="form-control" name="crd10" required>
+            	<option value="0">0</option>
+                <option value="2">2</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                
+                <option value="1">1</option>
+                <option value="6">6</option>
+                
+            </select>
+        </td>
+        
+    </tr>
+    <tr>
+        <td>Subject 11 :</td>
+        <td>Grade :</td>
+        <td>
+            <select class="form-control" name="sub11" required>
+                <option value="10">S</option>
+                <option value="9">A</option>
+                <option value="8">B</option>
+                <option value="7">C</option>
+                <option value="6">D</option>
+                <option value="5">E</option>
+                <option value="0">U</option>
+            </select>        
+        </td>
+        <td>Credit :</td>
+        <td>
+            <select class="form-control" name="crd11" required>
+            	<option value="0">0</option>
+                <option value="2">2</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                
+                <option value="1">1</option>
+                <option value="6">6</option>
+                
+            </select>
+        </td>
+        
+    </tr>
+    <tr>
+        <td>Subject 12 :</td>
+        <td>Grade :</td>
+        <td>
+            <select class="form-control" name="sub12" required>
+                <option value="10">S</option>
+                <option value="9">A</option>
+                <option value="8">B</option>
+                <option value="7">C</option>
+                <option value="6">D</option>
+                <option value="5">E</option>
+                <option value="0">U</option>
+            </select>        
+        </td>
+        <td>Credit :</td>
+        <td>
+            <select class="form-control" name="crd12" required>
+            	<option value="0">0</option>
+                <option value="2">2</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                
+                <option value="1">1</option>
+                <option value="6">6</option>
+                
+            </select>
+        </td>
+        
+    </tr>
+    <tr>
+        <td>Subject 13 :</td>
+        <td>Grade :</td>
+        <td>
+            <select class="form-control" name="sub13" required>
+                <option value="10">S</option>
+                <option value="9">A</option>
+                <option value="8">B</option>
+                <option value="7">C</option>
+                <option value="6">D</option>
+                <option value="5">E</option>
+                <option value="0">U</option>
+            </select>        
+        </td>
+        <td>Credit :</td>
+        <td>
+            <select class="form-control" name="crd13" required>
+            	<option value="0">0</option>
+                <option value="2">2</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                
+                <option value="1">1</option>
+                <option value="6">6</option>
+                
             </select>
         </td>
         
