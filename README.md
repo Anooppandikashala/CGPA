@@ -1,8 +1,8 @@
-## C G P A Calculator
+## S G P A Calculator
 
 ### About
 
-Simple CGPA calculator for semester 3 to 8 calicut university
+Simple SGPA calculator for semester 3 to 8 calicut university
 
 ----
 
